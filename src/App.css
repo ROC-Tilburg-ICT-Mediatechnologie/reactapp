@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shopping-card {
+  justify-content: space-between;
+  background-color: #61dafb;
+  padding: 20px 30px;
+  text-decoration: underline;
+}
+
+.product-item {
+  padding: 20px;
+}
+.tekst{
+  cursor: pointer;
+}
+
+.button {
+  background-color: #61dafb;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #61dafb;
+  box-shadow: 0 5px #08baeb;
+  transform: translateY(4px);
+}
+
+.img{
+  margin-top: 40px;
+}
